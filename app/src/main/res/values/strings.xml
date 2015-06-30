@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ContactApp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_delete">Delete</string>
+    <string name="title_activity_form_create_update">FormCreateUpdateActivity</string>
+</resources>

@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+android:layout_height="match_parent" tools:context=".MainActivity"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+<include
+    android:id="@+id/tool_bar"
+    layout="@layout/toolbar"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_alignParentTop="true"/>
+<ProgressBar
+    android:layout_width="45dp"
+    android:layout_height="45dp"
+    android:id="@+id/pb_progress"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"/>
+
+<android.support.v7.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rv_item"
+    android:layout_below="@id/tool_bar"
+    android:layout_margin="16dp"
+    />
+<android.support.design.widget.FloatingActionButton
+    android:id="@+id/fab_add"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/icon_add"
+    android:layout_marginBottom="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    app:fabSize="normal"/>
+
+</RelativeLayout>
