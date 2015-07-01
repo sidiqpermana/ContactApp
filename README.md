@@ -1,10 +1,10 @@
-# ContactApp
+# Simple ContactApp
 Contoh project Android untuk implementasi <b>koneksi HTTP</b> pada aplikasi android menggunakan AsyncHttpClient (LoopJ), <b>implementasi design pattern Observer</b> dan penggunaan beberapa komponen dari <b>Material Design Support Library</b>. <br>
 Diantaranya :<br>
 1.	Toolbar<br>
 2.	RecyclerView<br>
 3.	CardView<br>
-4.	FloadtingActionButton<br>
+4.	FloatingActionButton<br>
 5.	EditText Floating Labels<br>
 
 
