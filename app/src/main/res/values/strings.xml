@@ -4,4 +4,8 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_delete">Delete</string>
     <string name="title_activity_form_create_update">FormCreateUpdateActivity</string>
+
+    <string name="text_nama">Nama</string>
+    <string name="text_phone">Phone</string>
+    <string name="text_email">Email</string>
 </resources>

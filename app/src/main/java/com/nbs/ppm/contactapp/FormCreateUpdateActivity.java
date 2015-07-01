@@ -5,8 +5,8 @@ import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -55,8 +55,13 @@ public class FormCreateUpdateActivity extends ActionBarActivity implements Obser
         toolbar = (Toolbar)findViewById(R.id.tool_bar);
         setSupportActionBar(toolbar);
 
-        itemContact = (ItemContact) getIntent().getSerializableExtra(KEY_ITEM);
-        position = getIntent().getIntExtra(KEY_POSITION, 0);
+        if (savedInstanceState != null){
+            itemContact = (ItemContact) savedInstanceState.getSerializable(KEY_ITEM);
+            position = savedInstanceState.getInt(KEY_POSITION);
+        }else{
+            itemContact = (ItemContact) getIntent().getSerializableExtra(KEY_ITEM);
+            position = getIntent().getIntExtra(KEY_POSITION, 0);
+        }
 
         application = (ContactAppApplication)getApplication();
         application.getItemContact().addObserver(this);
@@ -65,6 +70,7 @@ public class FormCreateUpdateActivity extends ActionBarActivity implements Obser
         if (itemContact != null){
             isUpdateForm = true;
             actionBarTitle = "Update Contact";
+
             edtPhone.setText(itemContact.getPhone());
             edtName.setText(itemContact.getName());
             edtEmail.setText(itemContact.getEmail());
@@ -255,4 +261,10 @@ public class FormCreateUpdateActivity extends ActionBarActivity implements Obser
         }
     }
 
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        outState.putSerializable(KEY_ITEM, itemContact);
+        outState.putSerializable(KEY_POSITION, position);
+        super.onSaveInstanceState(outState);
+    }
 }

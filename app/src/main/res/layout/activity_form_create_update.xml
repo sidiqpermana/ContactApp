@@ -22,7 +22,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/edt_name"
             android:inputType="textPersonName"
-            android:hint="Nama"
+            android:hint="@string/text_nama"
             android:layout_marginBottom="8dp"
             android:singleLine="true"/>
         </android.support.design.widget.TextInputLayout>
@@ -35,7 +35,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/edt_email"
             android:inputType="textEmailAddress"
-            android:hint="Email"
+            android:hint="@string/text_email"
             android:layout_marginBottom="8dp"
             android:singleLine="true"/>
         </android.support.design.widget.TextInputLayout>
@@ -47,7 +47,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/edt_phone"
-            android:hint="Phone"
+            android:hint="@string/text_phone"
             android:inputType="number"
             android:layout_marginBottom="8dp"
             android:singleLine="true"/>
