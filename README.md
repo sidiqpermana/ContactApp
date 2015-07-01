@@ -23,3 +23,7 @@ Funsionalitas :<br>
 2.	View Contact<br>
 3.	Update Contact<br>
 4.	Delete Contact<br>
+
+Result : <br>
+<img src="https://lh4.googleusercontent.com/ycSdtJfHpqTIskS4E6aIQYz0B5ektj6SC195_QmR2MhuoUo8mUK0Vq2__NS6dnmpVYCxXmRcdVtErrA=w1342-h523-rw"/> <img src="https://lh3.googleusercontent.com/uIjY2ohfcIeDVr0-3AdVLhFIBYBTZxhtk-XqgeFe4TS-7bYM-q-a049cJCILK713UENLiQFq8VAOjOk=w1342-h523-rw"/>
+
