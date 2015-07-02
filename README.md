@@ -26,5 +26,5 @@ Funsionalitas :<br>
 4.	Delete Contact<br>
 
 Result : <br>
-<img src="http://sidiqpermana.com/images/codelab_sess_4.png"/> <img src="http://sidiqpermana.com/images/code_sess_4_b.png"/>
+<img src="http://sidiqpermana.com/images/codelab_sess_4.png" width="320px" height="569px"/> <img src="http://sidiqpermana.com/images/code_sess_4_b.png" width="320px" height="569px"/>
 
