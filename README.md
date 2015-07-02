@@ -10,6 +10,7 @@ Diantaranya :<br>
 
 Tips dan Trik : <br>
 Maksimalkan penggunaan Ctrl [tahan] + spasi untuk menampilkan code assistant<br>
+<b>Gunakan hosting server masing-masing agar lebih dapat esensi client-servernya</b><br>
 Kode web service bisa didownload di : https://drive.google.com/file/d/0ByNkasILQujDQ3VvVlZGRFJFU3c/view?usp=sharing <br>
 File database didownload di : https://drive.google.com/file/d/0ByNkasILQujDejFILUljQ0hEUTA/view?usp=sharing <br>
 Referensi : <br>
@@ -25,5 +26,5 @@ Funsionalitas :<br>
 4.	Delete Contact<br>
 
 Result : <br>
-<img src="https://lh4.googleusercontent.com/ycSdtJfHpqTIskS4E6aIQYz0B5ektj6SC195_QmR2MhuoUo8mUK0Vq2__NS6dnmpVYCxXmRcdVtErrA=w1342-h523-rw"/> <img src="https://lh3.googleusercontent.com/uIjY2ohfcIeDVr0-3AdVLhFIBYBTZxhtk-XqgeFe4TS-7bYM-q-a049cJCILK713UENLiQFq8VAOjOk=w1342-h523-rw"/>
+<img src="http://sidiqpermana.com/images/codelab_sess_4.png"/> <img src="http://sidiqpermana.com/images/code_sess_4_b.png"/>
 
